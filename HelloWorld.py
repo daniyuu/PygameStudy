@@ -33,6 +33,7 @@ def main():
                 print event.type
                 print QUIT
                 exit()
+                return
 
         screen.blit(background, (0,0))
 
